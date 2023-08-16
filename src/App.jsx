@@ -10,6 +10,7 @@ import {
   Tech,
   Works,
 } from "./components";
+import Technology from "./components/Technology";
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => {
         <About />
         <Experience />
         {/* <Tech /> */}
+        <Technology />
         <Works />
         <Feedbacks />
         <div className="relative z-0">
