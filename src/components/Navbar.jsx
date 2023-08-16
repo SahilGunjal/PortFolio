@@ -22,9 +22,9 @@ const Navbar = () => {
           <img
             src="/logo4.png"
             alt="logo"
-            className="w-17 h-20 object-contain"
+            className=" w-14 h-14 sm:w-24 sm:h-16 object-contain"
           />
-          <p className="text-white text-[24px] font-bold font-mono cursor-pointer flex">
+          <p className="text-white text-[20px] sm:text-[24px] font-bold font-mono cursor-pointer flex">
             Sahil&nbsp;
             <span className="text-orange-400 font-mono">
               {" "}
@@ -33,7 +33,7 @@ const Navbar = () => {
             <span className="lg:block hidden font-mono">|&nbsp;PortFolio </span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-10">
           <a
             href="https://drive.google.com/drive/folders/11VzxpPaM1NjydAIDeIqIndleESBWouVf?usp=drive_link"
             className="text-secondary text-[18px] hover:text-white cursor-pointer font-medium">
@@ -62,7 +62,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[100px] z-10
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10
           rounded-lg`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               <a
